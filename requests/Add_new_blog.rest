@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RVc2VyMiIsImlkIjoiNjY2OTRlMmI0NWI0MGNjODA0NGY1NTA0IiwiaWF0IjoxNzE4MTgzNzU3LCJleHAiOjE3MTgxODczNTd9.QmUfaS_abO9A3CyPNrhqYZONwXXAPJP4tocC-sFfqM4
+
+{
+  "title": "Harjoitus4.19",
+  "author": "Meikäläinen",
+  "url": "HarjoitusURL",
+  "likes": "6",
+  "userId": "66694e2b45b40cc8044f5504"
+}
